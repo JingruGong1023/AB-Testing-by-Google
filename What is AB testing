@@ -1,0 +1,19 @@
+WHAT IS AB TESTING
+AB Testing is a methodology for testing product changes.
+You split your users in two groups, the control group who sees the default feature, and the experimental group who sees the new features.
+
+WHAT AT TESTING CAN NOT TEST
+1. AB Testing is not good for testing new experiences. It may result in change aversion, or novelty effect, which will cause bias.
+When we have new experiences, we should consider:
+  1. the baseline, what is your base of your comparison
+  2. How much time needs to be allowed for the users to adapt to the new experiences. 
+2. AB Testing is not good for long-term test, eg, home rental website test its referral effect
+3. AB Testing cannot tell you if you are missing something. 
+
+WHY DO WE NEED AB TESTING
+The testing takes the guesswork out of website optimization and enables data-informed decisions that shift business conversations from i think to i know.
+By measuring the impact the changes have on your metrics, you can ensure that every change produces positive results. 
+Common Comparisons:
+web page versions, personalized recommendations and new features.
+
+
