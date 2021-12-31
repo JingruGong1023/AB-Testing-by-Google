@@ -1,0 +1,11 @@
+STEP 1: CHOOSE AND CHARACTERIZE METRICS TO EVALUATE YOUR EXPERIMENTS
+  What do you care about, and how do you want to measure the effect
+  The metrics we choose for sanity check are called as invariant metrics, which are not supposed to be affect by the experiment. They should not change across control and experimental group
+  The evaluation metrics are used to measure which variation is better. For example, we could use daily active users(DAU) to measure user engagement, use click through rate(CTR) to measure a button design on a webpage
+  The four categories of evaluation metrics are :
+      1. Sums and counts 2. Distribution 3. Probability and rates 4. ratios
+  Other things to consider: sensitivity and robustness
+  You will want to choose a metric that is high sensitive so that it can pick up the change you care about, and be robust against the changes you don't care, it means the metric doesn't change a lot when nothing youre interested happened
+  Robustness and sensitivity can trade off, so we need to find a balance
+  How to measure the sensitivity and robustness?
+    Run experiment, use AA test to see if the metric picks up any difference, if yes, that means the metric is not robust enough, retrospective analysis
