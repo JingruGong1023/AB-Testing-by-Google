@@ -9,3 +9,7 @@ STEP 1: CHOOSE AND CHARACTERIZE METRICS TO EVALUATE YOUR EXPERIMENTS
   Robustness and sensitivity can trade off, so we need to find a balance
   How to measure the sensitivity and robustness?
     Run experiment, use AA test to see if the metric picks up any difference, if yes, that means the metric is not robust enough, retrospective analysis
+    
+    
+STEP 2: CHOOSE SIGNIFICANCE LEVEL, STATISTICAL POWER AND PRACTICAL SIGNIFICANCE LEVEL
+
